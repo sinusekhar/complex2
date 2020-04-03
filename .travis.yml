@@ -21,8 +21,6 @@ after_success:
   - docker push sinusekhar/multi-server
   - docker push sinusekhar/multi-worker
 
-
-
 deploy:
   provider: elasticbeanstalk
   region: "us-west-2"
